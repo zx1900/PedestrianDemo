@@ -12,3 +12,8 @@ PedestrianDetect::~PedestrianDetect()
 {
     delete ui;
 }
+
+void PedestrianDetect::on_quitButton_clicked()
+{
+    QCoreApplication::quit();
+}

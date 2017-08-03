@@ -15,6 +15,9 @@ public:
     explicit PedestrianDetect(QWidget *parent = 0);
     ~PedestrianDetect();
 
+private slots:
+    void on_quitButton_clicked();
+
 private:
     Ui::PedestrianDetect *ui;
 };
